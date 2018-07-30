@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+	<title>Jogo da Velha - Contra amigos</title>
+	<link rel="stylesheet" type="text/css" href="css/estiloNvl1.css">
+	<script type="text/javascript" src="js/nvl1js.js"></script>
+	</head>
+	<body>
+	<div class="navbar">
+  			<a href="nvl1.html"><p>Jogar com amigo</p></a>
+			<a href="index.html"><p>HOME</p></a>
+  			<a href="nvl2game.html"><p>Jogar com CPU</p></a>
+  			<a href="sobre.html"><p>Sobre</p></a>
+  			<input type="button" class="btn" name="limpar" value="Novo jogo" onclick="novo();" />
+
+		</div>
+		<table class="tt" id="ttt">
+		<tr>
+			<td colspan="2" class="linhaTitulo">Jogando contra um amigo</td>
+			<td align="center" valign="middle">Vez do jogador</td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle" id="X" class="tableEscolha" onclick="escolhe(this.id)">X</td>
+			<td align="center" valign="middle" id="O" class="tableEscolha" onclick="escolhe(this.id)">O</td>
+			<td align="center" valign="middle" id="vez" class="tableEscolha"></td>
+		</tr>
+		<br>
+	<br>
+	<table class="tabela">
+		<tr>
+			<td align="center" valign="middle" id="cel11" class="tableIntern" onclick="joga(this.id);verif();"></td>
+			<td align="center" valign="middle" id="cel12" class="tableIntern" onclick="joga(this.id);verif();"></td>
+			<td align="center" valign="middle" id="cel13" class="tableIntern" onclick="joga(this.id);verif();"></td>
+		</tr>
+	 
+		<tr>
+			<td align="center" valign="middle" id="cel21" class="tableIntern" onclick="joga(this.id);verif();"></td>
+			<td align="center" valign="middle" id="cel22" class="tableIntern" onclick="joga(this.id);verif();"></td>
+			<td align="center" valign="middle" id="cel23" class="tableIntern" onclick="joga(this.id);verif();"></td>
+		</tr>
+	 
+		<tr>
+			<td align="center" valign="middle" id="cel31" class="tableIntern" onclick="joga(this.id);verif();"></td>
+			<td align="center" valign="middle" id="cel32" class="tableIntern" onclick="joga(this.id);verif();"></td>
+			<td align="center" valign="middle" id="cel33" class="tableIntern" onclick="joga(this.id);verif();"></td>
+		</tr>
+	</table>
+
+	</body>
+</html>

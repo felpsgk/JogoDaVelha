@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="css/estiloNvl1.css">
+		<script type="text/javascript" src="js/nvl2js.js"></script>
+		<title>Jogo da Velha - Contra CPU</title>
+		</head>
+	<body>
+	<div class="navbar">
+  			<a href="index.html"><p>HOME</p></a>
+  			<a href="nvl1.html"><p>Jogar com amigo</p></a>
+  			<a href="nvl2game.html"><p>Jogar com CPU</p></a>
+  			<a href="sobre.html"><p>Sobre</p></a>
+  			<input type="button" class="btn" name="limpar" value="Novo jogo" onclick="inicia();" />
+
+		</div>
+  			<a id="qmJoga">Vez do jogador: </a>
+		<table class="tt" id="ttt">
+		<tr>
+			<td colspan="2" class="linhaTitulo">Jogando contra a CPU (cuidado!)</td>
+			<td align="center" valign="middle">Vez do jogador: </td>
+		</tr>
+		<tr>
+			<td align="center" valign="middle" id="X" class="tableEscolha" onclick="escolhe(this.id);">X</td>
+			<td align="center" valign="middle" id="O" class="tableEscolha" onclick="escolhe(this.id)">O</td>
+			<td align="center" valign="middle" id="vez" class="tableEscolha"></td>
+		</tr>
+		<br>
+	<br>
+	<div id="dvjogo">
+		<div id="cel11" class="posJogo" onclick="joga(1)"></div>
+		<div id="cel12" class="posJogo" onclick="joga(2)"></div>
+		<div id="cel13" class="posJogo" onclick="joga(3)"></div>
+		<div id="cel21" class="posJogo" onclick="joga(4)"></div>
+		<div id="cel22" class="posJogo" onclick="joga(5)"></div>
+		<div id="cel23" class="posJogo" onclick="joga(6)"></div>
+		<div id="cel31" class="posJogo" onclick="joga(7)"></div>
+		<div id="cel32" class="posJogo" onclick="joga(8)"></div>
+		<div id="cel33" class="posJogo" onclick="joga(9)"></div>
+	</div>
+
+	</body>
+</html>

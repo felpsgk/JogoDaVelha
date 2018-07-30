@@ -1,0 +1,108 @@
+/*CSS PAGINA JvJ*/
+.linhaTitulo{
+    text-align: center;
+}
+.tableEscolha{width: 302px;
+    height: 200px;
+    background: #5b5b5b;
+    font-size: 170px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.tt{
+    background: #00d4ff;
+}
+.tableIntern{
+    width: 200px;
+    height: 200px;
+    background: #558493;
+    font-size: 150px;
+    color: #000000;
+    cursor: crosshair;
+}
+/*CSS PAGINA NVL2*/
+#dvjogo{
+    width: 515px;
+    height: 515px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.posJogo{
+    width: 170px;
+    height: 170px;
+    margin: 0px;
+    padding: 0px;
+    cursor: crosshair;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 155px;
+}
+#cel11{
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#cel12{
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+#cel13{
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#cel21{
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#cel22{
+    border: 1px solid #000;
+}
+#cel23{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#cel31{
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+}
+#cel32{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+#cel33{
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
+/*CSS MENU E BOTÃO*/
+.btn{
+    background-color: #333;
+    border-color: #333;
+    color: #ffffff;
+    height: 54px;
+}
+.navbar {
+        background-color: #333;
+        overflow: hidden;
+    }
+        .navbar a {
+        font-family: arial;
+        float: left;
+        color: #ffffff;
+        text-align: center;
+        padding: 0px 7px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .navbar a.active {
+        background-color: #ff9900;
+        color: white;
+    }
